@@ -1,0 +1,16 @@
+.logo {
+    width: 64px;
+    height:64px;    
+    
+   @include small-and-above {
+    width: 40%;    
+    float:left;
+    
+   }
+}
+.logo img {
+    height:100%;    
+    width:40%;
+    float:left;
+
+}

@@ -1,0 +1,42 @@
+.media, .media-body {
+    overflow:hidden;
+    
+}
+.media-item {
+    float:left;       
+}
+.media-item img {
+    width: 98%;   
+    margin:4px;
+    
+}
+.media-item i {
+    color: #1C75BC;
+    font-size: 5em; 
+    padding:10px;
+    padding-top: 20px; 
+    @include small-and-above{
+        padding: 25px;
+    } 
+}
+.media-green {
+    background-color:$green; 
+    color:white;
+    padding:10px;   
+    text-align:center;
+    border-radius: 15px;
+}
+.media-orange {
+    background-color:$orange;
+    color:white;
+    padding:10px;
+    text-align:center;
+    border-radius: 15px;
+}
+.media-blue {
+    background-color:$light-blue;
+    color:white;
+    padding:10px;
+    text-align:center;
+    border-radius: 15px;
+}

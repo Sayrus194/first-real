@@ -1,0 +1,19 @@
+
+.masks {
+    position: relative;
+    &:before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        content:"";
+        
+    } 
+}
+.masks-primary {
+    &:before {
+        background: $primary-mask-color;
+        opacity: 0.6;
+    }
+}

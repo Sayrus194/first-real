@@ -1,0 +1,20 @@
+.nav > ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+.nav {
+    margin-top:28px;
+    display:none;
+    @include small-and-above{        
+        float:right;
+        width: 60%;
+        text-align: right;
+        margin-top: 0px;
+        display:block;
+    
+    li {
+        display:inline-block;       
+    }     
+    }
+}
